@@ -1,0 +1,38 @@
+[package]
+name = "moon"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies.piston]
+git = "https://github.com/pistondevelopers/piston/"
+
+[dependencies]
+cpal ="0.13.5"
+lewton = "0.10.2"
+anyhow = "1.0.12"
+hound = "3.4"
+ringbuf = "0.2"
+wgpu = "0.12"
+pollster = "0.2"
+crossbeam-channel = "0.5.0"
+alto = "3.0.4"
+byteorder = "1.4.3"
+winit = "0.26.0"
+pixels = "0.8.0"
+image = "0.23"
+env_logger = "0.9"
+log = "0.4"
+vulkano-win = "0.26"
+piston_window = "0.94.0"
+find_folder = "0.3.0"
+fps_counter = "1.0.0"
+obj = "0.10.2"
+clap = { version = "3.1", default-features = false, features = ["std"] }
+tuix = {git= "https://github.com/geom3trik/tuix", branch = "main"}
+
+
+[workspace]
+resolver = "2"
